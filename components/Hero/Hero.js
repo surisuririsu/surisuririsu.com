@@ -8,6 +8,7 @@ export default function Hero() {
             className={styles.hero}
             src={heroImage}
             alt="Digital drawing of girl sleeping, surrounded by small animals"
+            priority
         />
     )
 }

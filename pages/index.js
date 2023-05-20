@@ -1,5 +1,6 @@
 import { Open_Sans } from 'next/font/google';
 import Head from 'next/head'
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import styles from '@/styles/Home.module.scss'
@@ -29,6 +30,7 @@ export default function Home() {
         <meta name="twitter:description" content="I make weeb art. Links to my socials." />
         <meta name="twitter:image" content="https://surisuririsu.com/twitter_image.jpg" />
       </Head>
+      <GoogleAnalytics />
       <main className={`${styles.main} ${font.className}`}>
         <Hero />
         <Navbar />

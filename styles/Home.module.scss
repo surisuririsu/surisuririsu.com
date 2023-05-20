@@ -21,6 +21,7 @@
 .avatar {
   border-radius: 50%;
   border: 4px solid #ccc;
+  pointer-events: none;
 }
 
 .content {
@@ -36,4 +37,14 @@
   font-size: 32px;
   display: flex;
   gap: 16px;
+
+  a {
+    transition: filter .1s, color .1s;
+
+    &:hover, &:focus {
+      color: #fff;
+      filter: drop-shadow(0 0 8px #ccc);
+      outline: none;
+    }
+  }
 }

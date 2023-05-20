@@ -1,26 +1,27 @@
 .navbar {
-    color: #fac;
-    padding: 24px;
-    text-align: center;
-    margin: auto;
+  color: #fac;
+  padding: 24px;
+  text-align: center;
+  margin: auto;
 
-    h1 {
-        font-weight: 400;
-    }
+  h1 {
+    font-weight: 400;
+  }
 }
 
 .links {
-    font-size: 32px;
-    display: flex;
-    gap: 16px;
+  font-size: 32px;
+  display: flex;
+  gap: 16px;
 
-    a {
-        transition: filter .2s, color .2s;
+  a {
+    transition: filter 0.2s, color 0.2s;
 
-        &:hover, &:focus {
-            color: #fff;
-            filter: drop-shadow(0 0 8px #fac);
-            outline: none;
-        }
+    &:hover,
+    &:focus {
+      color: #fff;
+      filter: drop-shadow(0 0 8px #fac);
+      outline: none;
     }
+  }
 }

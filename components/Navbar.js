@@ -29,7 +29,7 @@ export default function Navbar() {
           <SiYoutube />
         </a>
       </div>
-      <a className={styles.down} href="#content">
+      <a className={styles.down} href="#hello">
         <FaAngleDown />
       </a>
     </div>

@@ -66,7 +66,7 @@ export default function ImageGrid() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        See more on Pixiv
+        See more on pixiv
       </a>
     </>
   )

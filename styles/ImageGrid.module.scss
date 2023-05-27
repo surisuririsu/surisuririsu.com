@@ -2,9 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
   gap: 24px;
-  max-width: 600px;
 
   a {
     display: flex;
@@ -19,7 +17,7 @@
       }
 
       .backImg {
-        filter: blur(8px) brightness(0.85) saturate(2);
+        filter: blur(12px) saturate(2);
       }
     }
   }
@@ -38,7 +36,7 @@
     z-index: 0;
   }
 
-  @media only screen and (max-width: 696px) {
+  @media only screen and (max-width: 695.5px) {
     a:nth-child(9) {
       display: none;
     }
@@ -62,13 +60,14 @@
   max-width: 600px;
   padding: 16px;
   color: #fff;
-  background-color: #fac;
+  background-color: darken(#fac, 10%);
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
   transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  text-decoration: none !important;
 
-  @media only screen and (max-width: 487px) {
+  @media only screen and (max-width: 488px) {
     margin: 8px -32px -32px;
   }
 

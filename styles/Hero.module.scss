@@ -1,12 +1,13 @@
 .hero {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  height: calc(100dvh - 16px);
 }
 
 .heroImage {
   max-width: 80dvh;
   width: 100dvw;
+  min-height: 0;
   margin: auto;
   object-fit: contain;
   flex: 1;

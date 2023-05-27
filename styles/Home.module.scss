@@ -4,32 +4,36 @@
 }
 
 .content {
+  background-color: #fac;
   padding: 16px;
+  color: #fcfcfc;
 
   section {
-    max-width: 1200px;
-    margin: 0 auto 64px;
-    background-color: transparentize(#fac, 0.85);
+    max-width: 664px;
+    margin: 0 auto;
     border-radius: 4px;
-    padding: 32px 64px;
-
-    @media only screen and (max-width: 760px) {
-      padding: 32px;
-    }
+    padding: 32px;
   }
 
   h2 {
-    color: darken(#fac, 5%);
     margin-bottom: 16px;
-    font-size: 3em;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: 100;
   }
 
   p {
-    color: darken(#fac, 5%);
     font-size: 20px;
     margin-bottom: 24px;
     font-weight: 600;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  &:nth-child(odd) {
+    background: none;
+    color: #fac;
   }
 }

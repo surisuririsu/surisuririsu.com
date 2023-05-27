@@ -18,9 +18,8 @@ export default function Home() {
       <GoogleAnalytics />
       <main className={`${styles.main} ${font.className}`}>
         <Hero />
-        <div className={styles.content} id="hello">
+        <div className={styles.content} id="intro">
           <section>
-            <h2>Hello</h2>
             <p>
               I&apos;m an otaku from Canada who loves Japanese anime and music.
               <br />

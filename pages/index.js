@@ -21,7 +21,7 @@ export default function Home() {
           <section>
             <h2>Hello</h2>
             <p>
-              I'm an otaku from Canada who loves Japanese anime and music.
+              I&apos;m an otaku from Canada who loves Japanese anime and music.
               <br />
               <br />
               I recently started drawing anime-style art, and aspire to become

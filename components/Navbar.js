@@ -1,3 +1,4 @@
+import { FaAngleDown } from 'react-icons/fa'
 import {
   SiTwitter,
   SiPixiv,
@@ -28,6 +29,9 @@ export default function Navbar() {
           <SiYoutube />
         </a>
       </div>
+      <a className={styles.down} href="#content">
+        <FaAngleDown />
+      </a>
     </div>
   )
 }

@@ -1,0 +1,82 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 24px;
+  max-width: 600px;
+
+  a {
+    display: flex;
+    border-radius: 8px;
+
+    &:hover,
+    &:focus {
+      outline: none;
+
+      img {
+        filter: brightness(1.025) saturate(1.025);
+      }
+
+      .backImg {
+        filter: blur(8px) brightness(0.85) saturate(2);
+      }
+    }
+  }
+
+  img {
+    border-radius: 8px;
+    width: 184px;
+    height: 184px;
+    object-fit: contain;
+    z-index: 1;
+    transition: filter 0.2s;
+  }
+
+  .backImg {
+    position: absolute;
+    z-index: 0;
+  }
+
+  @media only screen and (max-width: 696px) {
+    a:nth-child(9) {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 488px) {
+    gap: 8px;
+    margin: 0 -32px;
+
+    img {
+      width: 160px;
+      height: 160px;
+    }
+  }
+}
+
+.pixivCta {
+  display: block;
+  text-align: center;
+  margin: 24px auto;
+  max-width: 600px;
+  padding: 16px;
+  color: #fff;
+  background-color: #fac;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+
+  @media only screen and (max-width: 487px) {
+    margin: 8px -32px -32px;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fac;
+    background-color: #fff;
+    box-shadow: 0 0 8px #fac;
+    outline: none;
+  }
+}

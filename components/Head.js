@@ -1,5 +1,4 @@
 import NextHead from 'next/head'
-import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export default function Head() {
   return (
@@ -36,7 +35,6 @@ export default function Head() {
           content="https://surisuririsu.com/twitter_image.jpg"
         />
       </NextHead>
-      <GoogleAnalytics />
     </>
   )
 }

@@ -1,4 +1,10 @@
 .hero {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.heroImage {
   max-width: 80dvh;
   width: 100dvw;
   margin: auto;

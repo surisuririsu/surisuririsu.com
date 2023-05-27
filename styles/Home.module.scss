@@ -1,7 +1,35 @@
 .main {
   background: url('/background.jpg');
   min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 24px;
+}
+
+.content {
+  padding: 16px;
+
+  section {
+    max-width: 1200px;
+    margin: 0 auto 64px;
+    background-color: transparentize(#fac, 0.85);
+    border-radius: 4px;
+    padding: 32px 64px;
+
+    @media only screen and (max-width: 760px) {
+      padding: 32px;
+    }
+  }
+
+  h2 {
+    color: darken(#fac, 5%);
+    margin-bottom: 16px;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+
+  p {
+    color: darken(#fac, 5%);
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
 }

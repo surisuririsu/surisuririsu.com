@@ -27,7 +27,7 @@ export default function Home() {
               I recently started drawing anime-style art, and aspire to become
               an illustrator!
               <br />
-              You can see a sample my works here.
+              You can see a sample of my works here.
             </p>
             <ImageGrid />
           </section>

@@ -16,7 +16,7 @@ export default function Navbar() {
         <a href="https://twitter.com/surisuririsu" aria-label="Twitter">
           <SiTwitter />
         </a>
-        <a href="https://pixiv.me/surisuririsu" aria-label="Pixiv">
+        <a href="https://pixiv.me/surisuririsu" aria-label="pixiv">
           <SiPixiv />
         </a>
         <a href="https://www.tiktok.com/@surisuririsu" aria-label="TikTok">

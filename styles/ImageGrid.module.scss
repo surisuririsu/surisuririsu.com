@@ -54,30 +54,3 @@
     }
   }
 }
-
-.pixivCta {
-  display: block;
-  text-align: center;
-  margin: 24px 0 auto;
-  max-width: 600px;
-  padding: 16px;
-  color: $white;
-  background-color: darken($primary, 10%);
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: 600;
-  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
-  text-decoration: none !important;
-
-  @media only screen and (max-width: 488px) {
-    margin: 8px -32px 0;
-  }
-
-  &:hover,
-  &:focus {
-    color: $primary;
-    background-color: $white;
-    box-shadow: 0 0 8px $primary;
-    outline: none;
-  }
-}

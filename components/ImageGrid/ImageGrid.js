@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import LinkButton from '@/components/LinkButton'
 import styles from '@/styles/ImageGrid.module.scss'
 import img_2023_05_23_nene from './2023_05_23_nene.jpg'
 import img_2023_05_19_koharu from './2023_05_19_koharu.jpg'
@@ -60,14 +61,9 @@ export default function ImageGrid() {
           </a>
         ))}
       </div>
-      <a
-        className={styles.pixivCta}
-        href="https://pixiv.me/surisuririsu"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <LinkButton href="https://pixiv.me/surisuririsu">
         See more on pixiv
-      </a>
+      </LinkButton>
     </>
   )
 }

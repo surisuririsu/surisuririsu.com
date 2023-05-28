@@ -1,0 +1,35 @@
+@import '@/styles/variables';
+
+.container {
+  background-color: $primary;
+  color: $white;
+
+  &:nth-child(odd) {
+    background: none;
+    color: $primary;
+  }
+
+  section {
+    max-width: $content-max-width;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 48px;
+  }
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

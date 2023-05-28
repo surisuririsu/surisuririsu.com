@@ -4,7 +4,7 @@ export default function KofiWidget() {
   return (
     <>
       <Script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js" />
-      <Script>
+      <Script id="kofi-widget">
         {`function drawWidget() {
             if (window.kofiWidgetOverlay) {
                 window.kofiWidgetOverlay.draw('surisuririsu', {

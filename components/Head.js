@@ -1,7 +1,7 @@
 import NextHead from 'next/head'
 
 export default function Head() {
-  const title = 'Anime Art, Commissions - risりす'
+  const title = 'Anime Art, Commissions - risりす (@surisuririsu)'
   const description =
     'I make anime-style art and aspire to become an illustrator. See illustrations, links to my socials, and request arkworks.'
 
@@ -10,7 +10,10 @@ export default function Head() {
       <title>{title}</title>
       <meta name="author" content="risりす" />
       <meta name="description" content={description} />
-      <meta name="keywords" content="Art, Anime, Illustration, surisuririsu" />
+      <meta
+        name="keywords"
+        content="risりす,ris,surisuririsu,art,illustration,illustrator,artist,commission,art commission,request,artwork,drawing,digital art,anime,otaku,イラスト,絵描き,アニメ,ris_sound"
+      />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
       <meta name="og:title" content={title} />

@@ -1,7 +1,7 @@
 import NextHead from 'next/head'
 
 export default function Head() {
-  const title = 'Anime Art, Commissions - risりす (@surisuririsu)'
+  const title = 'Anime Art, Commissions 🎨 - risりす (@surisuririsu)'
   const description =
     'I make anime-style art and aspire to become an illustrator. See illustrations, links to my socials, and request arkworks.'
 

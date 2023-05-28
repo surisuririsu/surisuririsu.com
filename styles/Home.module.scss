@@ -1,18 +1,19 @@
+@import '@/styles/variables';
+
 .main {
   background: url('/background.jpg');
   min-height: 100dvh;
 }
 
 .content {
-  background-color: #fac;
-  padding: 16px;
-  color: #fcfcfc;
+  background-color: $primary;
+  color: $white;
 
   section {
-    max-width: 664px;
+    max-width: $content-max-width;
     margin: 0 auto;
     border-radius: 4px;
-    padding: 32px;
+    padding: 48px;
   }
 
   h2 {
@@ -34,6 +35,6 @@
 
   &:nth-child(odd) {
     background: none;
-    color: #fac;
+    color: $primary;
   }
 }

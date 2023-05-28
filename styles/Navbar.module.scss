@@ -1,5 +1,7 @@
+@import '@/styles/variables';
+
 .navbar {
-  color: #fac;
+  color: $primary;
   padding: 0 24px;
   text-align: center;
   margin: auto;
@@ -13,8 +15,8 @@
 
     &:hover,
     &:focus {
-      color: #fff;
-      filter: drop-shadow(0 0 8px #fac);
+      color: $white;
+      filter: drop-shadow(0 0 8px $primary);
       outline: none;
     }
   }

@@ -1,3 +1,5 @@
+@import '@/styles/variables';
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +38,7 @@
     z-index: 0;
   }
 
-  @media only screen and (max-width: 695.5px) {
+  @media only screen and (max-width: $content-max-width) {
     a:nth-child(9) {
       display: none;
     }
@@ -56,11 +58,11 @@
 .pixivCta {
   display: block;
   text-align: center;
-  margin: 24px auto;
+  margin: 24px 0 auto;
   max-width: 600px;
   padding: 16px;
-  color: #fff;
-  background-color: darken(#fac, 10%);
+  color: $white;
+  background-color: darken($primary, 10%);
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
@@ -68,14 +70,14 @@
   text-decoration: none !important;
 
   @media only screen and (max-width: 488px) {
-    margin: 8px -32px -32px;
+    margin: 8px -32px 0;
   }
 
   &:hover,
   &:focus {
-    color: #fac;
-    background-color: #fff;
-    box-shadow: 0 0 8px #fac;
+    color: $primary;
+    background-color: $white;
+    box-shadow: 0 0 8px $primary;
     outline: none;
   }
 }

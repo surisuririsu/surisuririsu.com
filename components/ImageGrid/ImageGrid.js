@@ -1,17 +1,29 @@
 import Image from 'next/image'
 import LinkButton from '@/components/LinkButton'
 import styles from '@/styles/ImageGrid.module.scss'
+import img_2023_05_28_mashiro from './2023_05_28_mashiro.jpg'
+import img_2023_06_02_koharu_chie_miria from './2023_06_02_koharu_chie_miria.jpg'
+import img_2023_06_05_ageha from './2023_06_05_ageha.jpg'
 import img_2023_05_23_nene from './2023_05_23_nene.jpg'
 import img_2023_05_19_koharu from './2023_05_19_koharu.jpg'
 import img_2023_05_12_arisu from './2023_05_12_arisu.jpg'
 import img_2023_05_10_momoka_arisu_chie from './2023_05_10_momoka_arisu_chie.jpg'
 import img_2023_05_03_roko from './2023_05_03_roko.jpg'
 import img_2023_05_02_arisu from './2023_05_02_arisu.jpg'
-import img_2023_05_01_yayoi from './2023_05_01_yayoi.jpg'
-import img_2023_04_25_yume from './2023_04_25_yume.jpg'
-import img_2023_04_20_adelheid from './2023_04_20_adelheid.jpg'
 
 const IMAGES = [
+  {
+    src: img_2023_05_28_mashiro,
+    url: 'https://www.pixiv.net/artworks/108540842',
+  },
+  {
+    src: img_2023_06_02_koharu_chie_miria,
+    url: 'https://www.pixiv.net/artworks/108664761',
+  },
+  {
+    src: img_2023_06_05_ageha,
+    url: 'https://www.pixiv.net/artworks/108780257',
+  },
   {
     src: img_2023_05_23_nene,
     url: 'https://www.pixiv.net/artworks/108392883',
@@ -35,18 +47,6 @@ const IMAGES = [
   {
     src: img_2023_05_02_arisu,
     url: 'https://www.pixiv.net/artworks/107759985',
-  },
-  {
-    src: img_2023_05_01_yayoi,
-    url: 'https://www.pixiv.net/artworks/107724177',
-  },
-  {
-    src: img_2023_04_25_yume,
-    url: 'https://www.pixiv.net/artworks/107533027',
-  },
-  {
-    src: img_2023_04_20_adelheid,
-    url: 'https://www.pixiv.net/artworks/107385736',
   },
 ]
 

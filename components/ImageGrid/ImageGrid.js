@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import LinkButton from '@/components/LinkButton'
 import styles from '@/styles/ImageGrid.module.scss'
+import img_2023_06_08_momoka from './2023_06_08_momoka.jpg'
 import img_2023_05_28_mashiro from './2023_05_28_mashiro.jpg'
 import img_2023_06_02_koharu_chie_miria from './2023_06_02_koharu_chie_miria.jpg'
 import img_2023_06_05_ageha from './2023_06_05_ageha.jpg'
-import img_2023_05_23_nene from './2023_05_23_nene.jpg'
 import img_2023_05_19_koharu from './2023_05_19_koharu.jpg'
 import img_2023_05_12_arisu from './2023_05_12_arisu.jpg'
 import img_2023_05_10_momoka_arisu_chie from './2023_05_10_momoka_arisu_chie.jpg'
@@ -25,8 +25,8 @@ const IMAGES = [
     url: 'https://www.pixiv.net/artworks/108780257',
   },
   {
-    src: img_2023_05_23_nene,
-    url: 'https://www.pixiv.net/artworks/108392883',
+    src: img_2023_06_08_momoka,
+    url: 'https://www.pixiv.net/artworks/108849758',
   },
   {
     src: img_2023_05_19_koharu,

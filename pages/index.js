@@ -36,7 +36,7 @@ export default function Home() {
         <Section id="commissions">
           <h2>Commissions</h2>
           <p>
-            I currently accept commissions via pixiv Requests and Ko-fi only.
+            I currently accept pixiv Requests only.
             <br />
             <br />
             Please read the terms and instructions before requesting, and
@@ -45,9 +45,9 @@ export default function Home() {
           <LinkButton href="https://www.pixiv.net/request/send?creatorUserId=18820800&currentPlanId=113755">
             Request on pixiv
           </LinkButton>
-          <LinkButton href="https://ko-fi.com/surisuririsu/commissions">
+          {/* <LinkButton href="https://ko-fi.com/surisuririsu/commissions">
             Request on Ko-fi
-          </LinkButton>
+          </LinkButton> */}
         </Section>
       </main>
     </>
